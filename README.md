@@ -23,5 +23,11 @@ Bills Management
 
 
 
+
+
+
 What is to be done:
+
+
+
 Sill working on some function in javascript in order to deliver accurate computations.
