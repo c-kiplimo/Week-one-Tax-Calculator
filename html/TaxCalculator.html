@@ -42,8 +42,8 @@
                 <div id="gross-salary">
                     <p>Gross Salary</p>
                     <div>
-                    <input type="text" name="net-pay" id="netpay-input" placeholder=" ksh 50000">
-                    <input type="button" value="add" id="add-button">
+                    <input type="text" name="net-pay" id="netpay-input" >
+                    <input type="button" value="Add" id="add-button">
                     </div>
                 </div>
 
@@ -57,39 +57,39 @@
                 
                 <div>
 
-                    <div id="tax-row">
+                    <div class="tax">
                         <p>NSSF Contribution</p>
-                        <input type="text" name="nssf" placeholder="ksh" id="nssf">
+                        <input type="text" id="nssf">
                     </div>
 
-                    <div id="tax-row">
+                    <div class="tax">
                         <p>Taxable income</p>
-                        <input type="tel" name="" placeholder="ksh" id="taxable">
+                        <input type="tel"  id="taxable">
                     </div>
 
-                    <div id="tax-row">
+                    <div class="tax">
                         <p>Tax before relief</p>
-                        <input type="tel" name="" placeholder="ksh" id="relief">
+                        <input type="tel"  id="relief">
                     </div>
                     
-                    <div id="tax-row">
+                    <div class="tax">
                         <p>Personal Relief</p>
-                        <input type="tel" name=""  placeholder="ksh" id="personal">
+                        <input type="tel" id="personal">
                     </div>
 
-                    <div id="tax-row">
+                    <div class="tax">
                         <p>Insurance/ NHIF Relief</p>
-                        <input type="tel" name="" placeholder="ksh" id="insurance">
+                        <input type="tel"  id="insurance">
                     </div>
                     
-                    <div id="tax-row">
+                    <div class="tax">
                         <p>PAYE</p>
-                        <input type="tel" name="" placeholder="ksh" id="PAYE">
+                        <input type="tel" id="PAYE">
                     </div>
 
-                    <div id="tax-row">
+                    <div class="tax">
                         <p>NHIF Contribution</p>
-                        <input type="tel" name="" placeholder="ksh" id="NHIF">
+                        <input type="tel" id="NHIF">
                     </div>
                 </div> 
             </form>
@@ -101,19 +101,21 @@
                 <div>
                     <form action="" class="form-bills">
                         <div id="netpay2">
-                            <h3>Netpay</h3>
+                            <h3>Net pay</h3>
                             <h3 id="bill-netpay"></h3>
                         </div>
                         
 
                         <div id="new-bill">
+                            <p>Type</p>
                             <input type="text" name="" id="bill-name">
-                            <input type="tel" name="name" id="bill-amount" placeholder="KSH"> <br>
+                            <p>Amount</p>
+                            <input type="tel" name="name" id="bill-amount">  <br>
 
                         </div>
 
                         <div>
-                            <input type="button" value="+ Add New Bills" id="add-new-bills">
+                            <input type="button" value="Add bills" id="add-new-bills">
                         </div><br><br>
                         
                         <div id="new-bills">
