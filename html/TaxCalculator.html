@@ -4,32 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Tax Calculator</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body class="container">
 
     <header>
-        <nav id="natujenge-header">
-            <div id="natujenge-image">
-                <img src="../img/natujenge.svg" alt="Natujenge logo">
-                <h2>Natujenge</h2>
+            <div class="logo"> 
+                <img src="../img/natujenge.svg" alt="Natujenge"/> 
             </div>
-            <div>
-                <a href="https://www.meliora.co.ke/articles/nvrjgtnsgh5ophs6mm">About</a>
-            </div>
-        </nav>
+            
+        
     </header>
+    <div>
+        <br>
+        <br>
+    </div>
    
-    <div id="tax-manager-page">
-        <div id="links">
+    <div id="nav">
+        <div class="links">
             <ul class="nav nav-pills .nav-justified">
-                <li class="active"><a data-toggle="tab" href="#">Tax Calculator</a></li>
-                <li><a data-toggle="tab" href="bills.html">Bill Manager</a></li>
+                <li class="active"><a data-toggle="tab" href="#tax-manager">Tax Calculator</a></li>
+                <li id="change-link-color"><a data-toggle="tab" href="#bill-manager">Bill Manager</a></li>
             </ul>
         </div>
         
@@ -37,11 +37,12 @@
         <div class="tab-content">
           <div id="tax-manager" class="tab-pane fade in active">
             <form action="" method="get">
+                  <br>
 
                 <div id="gross-salary">
                     <p>Gross Salary</p>
                     <div>
-                    <input type="text" name="net-pay" id="netpay-input" placeholder=" ksh 80000">
+                    <input type="text" name="net-pay" id="netpay-input" placeholder=" ksh 50000">
                     <input type="button" value="add" id="add-button">
                     </div>
                 </div>
@@ -130,13 +131,16 @@
         </div><br>
 
        
-    </div><br>
+    </div>
     
    
 
     <footer>
+        <p>
+            Visit our <a href="https://www.meliora.co.ke/articles/nvrjgtnsgh5ophs6mm" target="_blank">Natujenge Website for more information.</a>
+        </p>
         <p>@Copyright 2022</p>
     </footer>
-    <script src="./js/tax.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
