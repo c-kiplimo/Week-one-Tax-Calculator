@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav id="natujenge-header">
+            <div id="natujenge-image">
+                <img src="../img/natujenge.svg" alt="Natujenge logo">
+                <h2>Natujenge</h2>
+            </div>
+            <div>
+                <a href="https://www.meliora.co.ke/articles/nvrjgtnsgh5ophs6mm">About</a>
+            </div>
+        </nav>
+    </header>
+   
+    <div id="tax-manager-page">
+        <div id="links">
+            <ul class="nav nav-pills .nav-justified">
+                <li class="active"><a data-toggle="tab" href="#">Tax Calculator</a></li>
+                <li><a data-toggle="tab" href="TaxCalculator.html">Bill Manager</a></li>
+            </ul>
+        </div>
+        <div id="bill-manager" class="tab-pane fade">
+            <div class="form-salary">
+                <div>
+                    <form action="" class="form-bills">
+                        <div id="netpay2">
+                            <h3>Netpay</h3>
+                            <h3 id="bill-netpay"></h3>
+                        </div>
+                        
+
+                        <div id="new-bill">
+                            <input type="text" name="" id="bill-name">
+                            <input type="tel" name="name" id="bill-amount" placeholder="KSH"> <br>
+
+                        </div>
+
+                        <div>
+                            <input type="button" value="+ Add New Bills" id="add-new-bills">
+                        </div><br><br>
+                        
+                        <div id="new-bills">
+                            
+                        </div>
+                        <div id="balance">
+                            <h3>Balance</h3>
+                            <h2 id="balance-amt"></h2>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        
+        </div><br>
+
+       
+    </div><br>
+    
+   
+
+    <footer>
+        <p>@Copyright 2022</p>
+    </footer>
+    <script src="./js/bills.js"></script>
+</body>
+</html>

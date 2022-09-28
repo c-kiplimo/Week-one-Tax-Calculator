@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav id="natujenge-header">
+            <div id="natujenge-image">
+                <img src="../img/natujenge.svg" alt="Natujenge logo">
+                <h2>Natujenge</h2>
+            </div>
+            <div>
+                <a href="https://www.meliora.co.ke/articles/nvrjgtnsgh5ophs6mm">About</a>
+            </div>
+        </nav>
+    </header>
+   
+    <div id="tax-manager-page">
+        <div id="links">
+            <ul class="nav nav-pills .nav-justified">
+                <li class="active"><a data-toggle="tab" href="#">Tax Calculator</a></li>
+                <li><a data-toggle="tab" href="bills.html">Bill Manager</a></li>
+            </ul>
+        </div>
+        
+        
+        <div class="tab-content">
+          <div id="tax-manager" class="tab-pane fade in active">
+            <form action="" method="get">
+
+                <div id="gross-salary">
+                    <p>Gross Salary</p>
+                    <div>
+                    <input type="text" name="net-pay" id="netpay-input" placeholder=" ksh 80000">
+                    <input type="button" value="add" id="add-button">
+                    </div>
+                </div>
+
+                
+                <div id="Netpay">
+                    <p>Netpay</p>
+                    <div id="content">
+
+                    </div>
+                </div>
+                
+                <div>
+
+                    <div id="tax-row">
+                        <p>NSSF Contribution</p>
+                        <input type="text" name="nssf" placeholder="ksh" id="nssf">
+                    </div>
+
+                    <div id="tax-row">
+                        <p>Taxable income</p>
+                        <input type="tel" name="" placeholder="ksh" id="taxable">
+                    </div>
+
+                    <div id="tax-row">
+                        <p>Tax before relief</p>
+                        <input type="tel" name="" placeholder="ksh" id="relief">
+                    </div>
+                    
+                    <div id="tax-row">
+                        <p>Personal Relief</p>
+                        <input type="tel" name=""  placeholder="ksh" id="personal">
+                    </div>
+
+                    <div id="tax-row">
+                        <p>Insurance/ NHIF Relief</p>
+                        <input type="tel" name="" placeholder="ksh" id="insurance">
+                    </div>
+                    
+                    <div id="tax-row">
+                        <p>PAYE</p>
+                        <input type="tel" name="" placeholder="ksh" id="PAYE">
+                    </div>
+
+                    <div id="tax-row">
+                        <p>NHIF Contribution</p>
+                        <input type="tel" name="" placeholder="ksh" id="NHIF">
+                    </div>
+                </div> 
+            </form>
+          </div><br>
+
+
+          <div id="bill-manager" class="tab-pane fade">
+            <div class="form-salary">
+                <div>
+                    <form action="" class="form-bills">
+                        <div id="netpay2">
+                            <h3>Netpay</h3>
+                            <h3 id="bill-netpay"></h3>
+                        </div>
+                        
+
+                        <div id="new-bill">
+                            <input type="text" name="" id="bill-name">
+                            <input type="tel" name="name" id="bill-amount" placeholder="KSH"> <br>
+
+                        </div>
+
+                        <div>
+                            <input type="button" value="+ Add New Bills" id="add-new-bills">
+                        </div><br><br>
+                        
+                        <div id="new-bills">
+                            
+                        </div>
+                        <div id="balance">
+                            <h3>Balance</h3>
+                            <h2 id="balance-amt"></h2>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        
+        </div><br>
+
+       
+    </div><br>
+    
+   
+
+    <footer>
+        <p>@Copyright 2022</p>
+    </footer>
+    <script src="./js/tax.js"></script>
+</body>
+</html>
