@@ -119,7 +119,7 @@ float: right;
     justify-content: center;
 }
 
-#tax-row{
+.tax{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -197,10 +197,11 @@ footer{
 
 
   #add-new-bills {
-    float: right;
+    float: center;
     margin-top: 10px;
     padding-top: 5px;
-    
+    width:100px;
+    background-color:rgb(129, 221, 221)   
   }
 
   #balance{
