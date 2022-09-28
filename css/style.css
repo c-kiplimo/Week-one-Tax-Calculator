@@ -1,31 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+    }
+    
+    body
+    {
+    font-family:Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    }
 
+#nav {
+    overflow: auto;
+    display: inline;
+   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    }
 
-#natujenge-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  
+#nav  li {
+  
+  display:inline;
+  
+  
+      }
+      
+#nav  li a{
+  color:rgb(14, 13, 13);
+  width: 190px;
+  font-weight: bold;
+  padding: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+      }
+  
+#nav ul
+{
+  padding:5px 0px 5px 0px;
+  border-radius: 20px;
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+  
+  font: size 16px;
+   border: 1px solid #888;
+   margin-bottom: 10px;
+
+}
+  
+#nav .active > a { 
+      background-color: #ddd;
+      color: rgb(41, 10, 216);
+      text-decoration: none;
+      padding: 15px 40px;
+       box-shadow: inset 0px 5px 8px  #777;
+      
 }
 
-#natujenge-image{
-    display: flex;
+
+#nav a:hover { 
+color: rgb(0, 0, 0);
 }
 
-#natujenge-image img{
-    height: 50px;
-    width: 40px;
+.pull-right
+{
+float: right;
 }
 
-#content{
-    margin-bottom: 10px;
+
+
+.container {
+    width: 500px; 
+    margin: 10px auto;
+    background-color:rgb(213, 221, 219)
 }
+
+
+
+
+
 #gross-salary{
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 20px;
     margin-bottom: 10px;
 }
 #add-button{
-    background-color: white;
+    background-color: rgba(22, 182, 185, 0.799);
     margin-left: 5px;
+    width: 100px;
+    
 }
 #Netpay{
     display: flex;
@@ -41,14 +100,17 @@
     outline: none;
     margin-top: -10px;
     float: right;
-    border-radius: 5px;
+    border-radius: 30px;
 }
 
-#links ul{
+
+
+.links ul{
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+    
 }
 
 .tab-content{
@@ -70,6 +132,9 @@
 footer{
     justify-content: center;
     text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    text-decoration: blue;
 }
 
 
@@ -128,6 +193,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+ 
 
 
   #add-new-bills {
