@@ -4,10 +4,17 @@ let taxable = document.getElementById('taxable');
 let relief = document.getElementById('relief');
 let personal = document.getElementById('personal');
 let insurance = document.getElementById('insurance');
-let paye = document.getElementById('PAYE')
-let nhif = document.getElementById('NHIF')
+let paye = document.getElementById('paye')
+let nhif = document.getElementById('nhif')
 let content = document.getElementById('content')
 let addButton = document.getElementById('add-button')
+
+let newBills = document.getElementById('new-bills')
+
+var billName = document.getElementById('bill-name')
+var addNewBill = document.getElementById('add-new-bills')
+var billAmount = document.getElementById('bill-amount')
+var BalanceAmount = document.getElementById('balance-amt')
 
 
 
@@ -79,12 +86,6 @@ nhif.addEventListener('keypress',function(e){
     }
     
 } )
-let newBills = document.getElementById('new-bills')
-
-var billName = document.getElementById('bill-name')
-var addNewBill = document.getElementById('add-new-bills')
-var billAmount = document.getElementById('bill-amount')
-var BalanceAmount = document.getElementById('balance-amt')
 
 addNewBill.addEventListener('click', function () {
     var newBillName = document.createElement('h3')
