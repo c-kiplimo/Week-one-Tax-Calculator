@@ -58,10 +58,6 @@
 color: rgb(0, 0, 0);
 }
 
-.pull-right
-{
-float: right;
-}
 
 
 
@@ -126,9 +122,7 @@ float: right;
     margin-bottom: 10px;
 }
 
-#bill-manager-link{
-    float: right;
-}
+
 footer{
     justify-content: center;
     text-align: center;
@@ -154,40 +148,7 @@ footer{
     display: flex;
     justify-content: space-between;
   }
-  label{
-    float: left;
-    text-align: left;
-    margin-right: 75px;
-    width: 150px;
-  }
-  
-  #shillings{
-    margin: 10px auto;
-    border-radius: 8px;
-    background-color: #f5f5f5;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-  #rent, #entertainment, #food, #shopping{
-    /* background-color: grey; */
-    margin: 5px 5px;
-    border-block-end: 2px double grey;
-    /* color: rgb(42, 96, 143); */
-    /* border-block: 5px hidden grey; */
-    writing-mode: horizontal-tb;
-    /* border-block-width: thin; */
-    border-block-style:aliceblue;
-    /* border: 2px hidden gray; */
-    /* box-shadow: inset; */
-  }
-  #otherbills{
-    /* margin-right: 25px; */
-    margin: 25px 44px;
-    border-block-end: 2px double grey;
-    border-block-style:aliceblue;
-    background: #ffff;
-  }
-
-  #new-bills{
+   #new-bills{
     justify-content: space-between;
     align-items: center;
     display: grid;
