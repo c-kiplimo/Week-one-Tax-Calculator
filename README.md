@@ -20,3 +20,14 @@ Tax Calculator
 
 Bills Management
 ![Screenshot (37)](https://user-images.githubusercontent.com/90177693/192886456-733c76b9-65b4-46e9-bf93-863581b1d914.png)
+
+
+
+
+
+
+What is to be done:
+
+
+
+Sill working on some function in javascript in order to deliver accurate computations.
